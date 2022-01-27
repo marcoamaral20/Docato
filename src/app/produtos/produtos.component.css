@@ -1,0 +1,23 @@
+
+.envelope-atividade {
+  background-color: #fff;
+  border-radius: 15px;
+  color: #808282;
+  padding: 20px 0;
+  -webkit-box-shadow: 0 0 5px 0 #bdbdbd;
+  -moz-box-shadow: 0 0 5px 0 #bdbdbd;
+  box-shadow: 0 0 5px 0 #bdbdbd;
+  position: relative;
+  margin-left: 350px
+}
+.pl-2 {
+  padding: 20px;
+  align-items: center;
+  margin-left: 230px;
+}
+
+.azul-escuro-docato, a.azul-escuro-docato {
+  color: #1b61ff;
+}
+
+

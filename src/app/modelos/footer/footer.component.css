@@ -1,0 +1,9 @@
+footer {
+  bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(34, 139, 170);
+        justify-content: space-between;
+}

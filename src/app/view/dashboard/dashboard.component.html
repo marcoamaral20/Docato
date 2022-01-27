@@ -1,0 +1,31 @@
+<app-header></app-header>
+
+<div class="container">
+
+  <h3>Lista de Usuários</h3><br>
+
+  <button type="button" class="btn btn-primary" (click)="cadastrarUsuario()">Cadastrar usuário</button>
+
+  <table class="table table-light">
+    <thead>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Apelido</th>
+        <th scope="col">CPF</th>
+        <th scope="col">Email</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios" (click)="editarUsuario(usuario.id_usuario)">
+        <th scope="row">{{usuario.nome}}</th>
+        <td>{{usuario.apelido}}</td>
+        <td>{{usuario.cpf}}</td>
+        <td>{{usuario.email}}</td>
+      </tr>
+      </tbody>
+  </table>
+</div>
+
+
+
+<app-footer></app-footer>
