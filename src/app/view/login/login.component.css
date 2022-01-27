@@ -290,3 +290,9 @@ input[type=text]:placeholder {
 #icon {
   width:60%;
 }
+
+
+img {
+  padding: 20px;
+  margin: 20px;
+}
